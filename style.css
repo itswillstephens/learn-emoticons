@@ -3,42 +3,63 @@
   padding: 0;
 }
 
+body {
+  background-color: #2E112D;
+}
+
+#emoji-container {
+  background-color: #FCFFF5;
+  width: 80%;
+  margin: 5vh auto 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 #emoji-char {
-  padding-top: 10vh;
   text-align: center;
   font-size: 15vh;
   padding-bottom: 1vh;
 }
 
 #emoji-definition {
-  margin-top: 1vh;
-  padding-left: 5px;
-  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 4vh;
+  font-size: 3.5vh;
   text-align: center;
 }
 
-#random-emoji-button {
-  bottom: 0vh;
-  width: 100%;
-  height: 30vh;
-  margin-top: 8vh;
-  background-color: blue;
-  font-size: 4vh;
-  color: white;
-}
-button:focus {
-  outline:0;
+#button-container {
+  width: 80%;
+  margin: 5vh auto 0 auto;
+  padding: 20px;
 }
 
+#random-emoji-button {
+  width: 100%;
+  height: 20vh;
+  padding: 20px;
+  background-color: #820333;
+  font-size: 4vh;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: white;
+}
+#random-emoji-button:hover {
+  background-color: #C9283E;
+  color: white;
+  border: 1px solid #820333;
+} 
+
 #history-title {
-  padding: 60px 5px 5px 5px; 
-  font-size: 3vh;
-  border-bottom: 1px solid rgb(196, 192, 192);
+  padding: 30px 5px 5px 5px; 
+  border-bottom: 0.5px solid #C9283E;
+  text-align: center;
+  color: #C9283E;
 }
 
 #history {
   padding: 10px 5px 5px 5px;
+  color: #C9283E;
 }
